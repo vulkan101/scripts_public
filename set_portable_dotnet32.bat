@@ -1,0 +1,2 @@
+set DOTNET_ROOT=C:\xr_dev\dotnetSDK32
+set PATH=%DOTNET_ROOT%;%PATH%
