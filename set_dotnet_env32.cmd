@@ -11,6 +11,7 @@ set EMSDK_PYTHON=%EMSDK_INSTALL_ROOT%\python\3.9.2-nuget_64bit\python.exe
 set EMSDK_NODE=%EMSDK_INSTALL_ROOT%\node\20.18.0_64bit\bin
 set WasmEnableMemory64=False
 set WasmCachePath=C:\xr_dev\cache32
+set MEMORY64=1
 :: these two are required for building wasm samples
 set EmscriptenNodeToolsPath=C:\emsdk\node\20.18.0_64bit\bin\
 set EmscriptenPythonToolsPath=C:\emsdk\python\3.9.2-nuget_64bit\
