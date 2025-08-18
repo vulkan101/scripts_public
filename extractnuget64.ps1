@@ -33,7 +33,7 @@ Get-ChildItem -Path $sourceDirectory -Filter *.nupkg | ForEach-Object {
         Copy-Item -Path $nupkgFile -Destination $tempZip -Force
 
         # Extract the .zip file
-        & unzip -o $tempZip -d $versionPath
+        Expand-Archive -Path $tempZip -DestinationPath $versionPath -Force
 
         # Clean up
         Remove-Item -Path $tempZip -Force
